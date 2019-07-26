@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo</title>
+</head>
+
+<body>
+    <div class="input-group" align="center">
+        <input type="file" accept="image/*" id="file-input">
+        <script>
+            const fileInput = document.getElementById('file-input');
+            fileInput.addEventListener('change', (e) => doSomethingWithFiles(e.target.files));
+        </script>
+    </div>
+
+    <img id="output">
+    <script>
+        const output = document.getElementById('output');
+
+        function doSomethingWithFiles(fileList) {
+            let file = null;
+
+            for (let i = 0; i < fileList.length; i++) {
+              if (fileList[i].type.match(/^image\//)) {
+                file = fileList[i];
+                break;
+              }
+            }
+
+            if (file !== null) {
+              output.src = URL.createObjectURL(file);
+            }
+        }
+    </script>
+
+</body>
+</html>
