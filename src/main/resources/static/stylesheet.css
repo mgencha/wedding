@@ -1,15 +1,24 @@
+@font-face {
+    font-family: Laurence;
+    src: url("fonts/Laurence.ttf") format("ttf")
+}
+
 #mkeBanner {
     padding-top: 2em;
     padding-bottom: 2em;
 }
 
-#engagement, #venue {
+img {
+    width: 992px;
+    height: 660px;
+    object-fit: cover;
     padding-bottom: 2em;
 }
 
 /* START navigation styles: */
 
-.nav-tabs .nav-link {
+.nav-link {
+    color: #fff;
     border: 1px solid transparent;
     border-top-left-radius: .25em;
     border-top-right-radius: .25em;
@@ -17,43 +26,43 @@
     padding-left: 40px;
 }
 
-.nav-tabs .nav-link:hover {
+.nav-link:hover {
     border-style: solid;
     border-width: 1px;
-    border-color: #bf726c;
+    border-color: #fff;
+    color: #A0A0A0;
 
 }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
-    background-color: #e1edeb;
+.nav-tabs {
+    border-bottom: transparent;
 }
 
 a {
-    color: #000;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: normal;
-    color: #000;
     letter-spacing: 2.3px;
 }
 
 /* END navigation styles */
 
 body {
-    background-color: #f5dcd5;
+    background-color: #00004d;
 }
 
 .col-lg {
-    background-color: #e1edeb;
+    background-color: #fff;
 
 }
 
 h1 {
-    font-family: Snell Roundhand, cursive;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    font-weight: bold;
-    color: #bf726c;
+    font-family: Laurence, Snell Roundhand, cursive;
+    font-size: 7em;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: #fff;
 }
 
 /* START gallery images and modals */
