@@ -8,13 +8,6 @@
     padding-bottom: 2em;
 }
 
-img {
-    width: 992px;
-    height: 660px;
-    object-fit: cover;
-    padding-bottom: 2em;
-}
-
 /* START navigation styles: */
 
 .nav-link {
@@ -49,11 +42,6 @@ a {
 
 body {
     background-color: #00004d;
-}
-
-.col-lg {
-    background-color: #fff;
-
 }
 
 h1 {
