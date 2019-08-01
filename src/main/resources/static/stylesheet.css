@@ -46,6 +46,7 @@ a {
 
 body {
     background-color: #00004d;
+    padding-bottom: 4em;
 }
 
 h1 {
@@ -57,8 +58,10 @@ h1 {
     color: #fff;
 }
 
-.col-lg {
-    padding-bottom: 4em;
+.main_body {
+    background-color: #fff;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 /* START gallery images and modals */
