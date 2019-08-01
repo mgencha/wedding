@@ -1,12 +1,16 @@
+/* START fonts */
+
 @font-face {
     font-family: Laurence;
     src: url("fonts/Laurence.ttf") format("ttf")
 }
 
-#mkeBanner {
-    padding-top: 2em;
-    padding-bottom: 2em;
+@font-face {
+    font-family: Montserrat;
+    src: url("fonts/Montserrat.ttf") format("ttf")
 }
+
+/* END fonts */
 
 /* START navigation styles: */
 
@@ -51,6 +55,10 @@ h1 {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     color: #fff;
+}
+
+.col-lg {
+    padding-bottom: 4em;
 }
 
 /* START gallery images and modals */
