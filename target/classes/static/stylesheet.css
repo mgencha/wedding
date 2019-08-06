@@ -51,9 +51,7 @@
 
 a {
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: 2.3px;
+    letter-spacing: 3px;
 }
 
 /* END navigation styles */
@@ -67,7 +65,7 @@ h1 {
     font-family: 'Laurence', Snell Roundhand, cursive;
     font-size: 7em;
     text-align: center;
-    padding-top: 0.5em;
+    padding-top: 1em;
     padding-bottom: 0.5em;
     color: #fff;
 }
@@ -176,6 +174,8 @@ h1 {
 nav {
     background-color: $fff;
     height: 65px;
+    padding-top: 65px;
+    padding-left: 25px;
 }
 
 #menuToggle {
@@ -192,8 +192,8 @@ nav {
 #menuToggle input
 {
   display: flex;
-  width: 40px;
-  height: 32px;
+  width: 75px;
+  height: 60px;
   position: absolute;
   cursor: pointer;
   opacity: 0;
@@ -203,8 +203,8 @@ nav {
 #menuToggle span
 {
   display: flex;
-  width: 29px;
-  height: 2px;
+  width: 75px;
+  height: 15px;
   margin-bottom: 5px;
   position: relative;
   background: #ffffff;
@@ -246,12 +246,13 @@ nav {
 #menu
 {
   position: absolute;
-  width: 260px;
-  height: 400px;
+  width: 500px;
+  height: 725px;
   box-shadow: 0 0 10px #85888C;
-  margin: -50px 0 0 -50px;
+  margin: -50px 0 0 -75px;
   padding: 50px;
-  padding-top: 125px;
+  padding-left: 125px;
+  padding-top: 175px;
   background-color: #F5F6FA;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
@@ -262,8 +263,17 @@ nav {
 
 #menu li
 {
-  padding: 10px 0;
+  padding: 25px 0;
   transition-delay: 2s;
+}
+
+#menu a
+{
+    font-family: Montserrat;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: xx-large;
+    color: #00004d;
 }
 
 #menuToggle input:checked ~ ul
